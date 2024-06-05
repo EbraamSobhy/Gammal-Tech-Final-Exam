@@ -1,0 +1,29 @@
+.backend {
+    background-color: teal;
+}
+
+.backend-title {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.exam {
+    color: white;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.exam-content{
+    color: black;
+    font-size: 25px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.button {
+    padding: 30px;
+    text-align: center;
+}

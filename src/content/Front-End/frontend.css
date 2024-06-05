@@ -1,0 +1,19 @@
+.f {
+    background-color: teal;
+}
+
+.f-title {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 25px;
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+

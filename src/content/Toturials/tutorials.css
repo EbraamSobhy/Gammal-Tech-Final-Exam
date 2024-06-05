@@ -1,0 +1,17 @@
+.tutorials {
+    background-color: teal;
+}
+
+.tutorials-title {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.about-exam{
+    font-size: 30px;
+    padding: 25px;
+    text-align: center;
+    font-weight: bold;
+}

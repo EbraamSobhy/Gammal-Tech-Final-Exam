@@ -1,0 +1,62 @@
+.logo {
+    height: 70px;
+    width: 100px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: black;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover,
+.navbar-nav .show > .nav-link {
+    color: black;
+    font-weight: bold;
+    /* Set text color to black */
+}
+
+.navbar-brand,
+.navbar-brand:focus,
+.navbar-brand:hover {
+    color: black; /* Set brand text color to black */
+}
+
+/* Remove the link disappearance when clicked */
+.navbar-nav .nav-link.active,
+#collapsible-nav-dropdown {
+    color: black !important;
+}
+
+.navbar-toggler {
+    border-color: black; /* Set toggle button border color to
+    black */
+}
+
+.navbar-toggler-icon {
+    background-color: black; /* Set toggle button background color to black */
+}
+
+    /* Adjust the z-index of the NavBar */
+    .NavBar {
+        position: relative; /* Ensure position is set to relative or absolute */
+        z-index: 998; /* Set a higher z-index value */
+    }
+
+.nav-link:hover {
+    border-bottom: teal;
+    border-bottom-style: solid;
+}
+
+#register:hover {
+    border-bottom: teal;
+    border-bottom-style: solid;
+    }
+
+    #register1:hover {
+        border-bottom: grey;
+        border-bottom-style: solid;
+        }
+
+#register  {
+    color: teal;
+}
