@@ -28,9 +28,9 @@ function NavBar() {
             </style>
             <Navbar expand="lg" className="bg-white">
                 <Container>
-                    <Navbar.Brand as={Link} to="/"><img className='logo' src={logo} alt="Logo" /></Navbar.Brand>
+                    <Navbar.Brand as={Link} to="/" target="_blank"><img className='logo' src={logo} alt="Logo" /></Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link as={Link} to="/">Home</Nav.Link>
+                        <Nav.Link as={Link} to="/" target="_blank">Home</Nav.Link>
                         <Nav.Link as={Link} to="/tutorials" target="_blank">About</Nav.Link>
                         <Nav.Link as={Link} to="/content/Front-End" target="_blank">Ref Video</Nav.Link>
                         <Nav.Link as={Link} to="/content/Backend" target="_blank">Final Exam</Nav.Link>

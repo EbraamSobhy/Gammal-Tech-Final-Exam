@@ -39,6 +39,5 @@ function App() {
     </Router>
   );
 }
-{/** npm install react-router-dom react-icons bootstrap react-bootstrap
- */}
+{/* Use (spacedesk) Application to Connecting Duplicate (Laptop or PC) to Tablet, Mobile and IPad */}
 export default App;
