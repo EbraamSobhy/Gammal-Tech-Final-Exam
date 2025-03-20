@@ -19,3 +19,27 @@
     font-weight: bold;
     color: black;
 }
+
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+    .tutorials-title {
+        font-size: 50px;
+    }
+
+    .about-exam {
+        font-size: 20px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .tutorials-title {
+        font-size: 40px;
+    }
+
+    .about-exam {
+        font-size: 18px;
+        padding: 10px;
+    }
+}

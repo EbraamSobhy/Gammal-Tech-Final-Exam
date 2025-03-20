@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import './backend.css';
 import Footer from "../../components/Footer/Footer";
 import Button from 'react-bootstrap/Button';
@@ -33,7 +33,30 @@ function Backend() {
                     border-style: solid;
                     border-width: 3px;
                 }
-            `}
+
+                    /* Responsive Design */
+                    @media (max-width: 768px) {
+                .btn-flat {
+                    height: 80px;
+                    width: 150px;
+                }
+
+                .btn-xxl {
+                    font-size: 20px;
+                }
+            }
+
+            @media (max-width: 480px) {
+                .btn-flat {
+                    height: 60px;
+                    width: 120px;
+                }
+
+                .btn-xxl {
+                    font-size: 15px;
+                }
+            }
+        `}
             </style>
             <h1 className="backend-title">Final Exam</h1>
             <br />
@@ -57,7 +80,7 @@ function Backend() {
             <p className="exam-content">- Want from you to make a Software Project in 5 Minutes.</p>
             <div className="button">
                 <a href="https://66616e86063eb06f6a07b729--voluble-cactus-d23c01.netlify.app/" target="_blank" rel="noopener noreferrer">
-                    <Button variant="flat" size="xxl">
+                    <Button variant="flat" size="xxl" className="button-title">
                         Let's Start
                     </Button>
                 </a>

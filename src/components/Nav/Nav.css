@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 /* Logo Styles */
 .logo {
     height: 70px;
@@ -29,9 +31,29 @@
     font-weight: bold;
     text-decoration: none;
     margin: 0 25px; /* Adjust spacing */
+    font-family: 'Montserrat', sans-serif;
 }
+
 
 /* Add underline on hover */
 .nav-link:hover {
     border-bottom: solid teal;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .NavBar {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-nav .nav-link {
+        margin: 10px 0; /* Adjust spacing for mobile */
+    }
 }

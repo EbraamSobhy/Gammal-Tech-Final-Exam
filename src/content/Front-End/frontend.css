@@ -20,3 +20,29 @@
     height: 100vh;
 }
 
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+    .f-title {
+        font-size: 30px;
+        margin: 15px;
+    }
+
+    .iframe-container {
+        height: auto;
+        padding: 20px;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .f-title {
+        font-size: 25px;
+        margin: 10px;
+    }
+
+    .iframe-container {
+        height: auto;
+        padding: 10px;
+        margin: 10px;
+    }
+}

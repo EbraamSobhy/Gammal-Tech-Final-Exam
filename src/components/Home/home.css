@@ -42,4 +42,59 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .main {
+        height: 90vh;
+    }
 
+    .content {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 992px) {
+    .main {
+        height: 80vh;
+    }
+
+    .content {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        height: 70vh;
+    }
+
+    .content {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .main {
+        height: 60vh;
+    }
+
+    .content {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+}
