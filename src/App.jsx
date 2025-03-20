@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Home from './components/Home/Home';
 import NavBar from './components/Nav/NavBar.jsx';
@@ -10,16 +9,16 @@ import Backend from './content/BackEnd/Backend.jsx';
 function Layout() {
   const location = useLocation();
 
-  const isExcludedPage = ["/tutorials", "/content/Front-End", "/content/Backend", "/content/Mobile", "/content/Design"].includes(location.pathname);
+  const isExcludedPage = ["/about", "/ref video", "/final-exam"].includes(location.pathname);
 
   return (
     <>
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/tutorials" element={<Tutorials />} />
-        <Route path="/content/Front-End" element={<Frontend />} />
-        <Route path="/content/Backend" element={<Backend />} />
+        <Route path="/about" element={<Tutorials />} />
+        <Route path="/ref-video" element={<Frontend />} />
+        <Route path="/final-exam" element={<Backend />} />
       </Routes>
       {!isExcludedPage && (
         <>

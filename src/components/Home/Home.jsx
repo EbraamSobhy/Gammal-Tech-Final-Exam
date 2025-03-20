@@ -1,4 +1,3 @@
-import React from "react";
 import './home.css';
 import BgVideo from './Reference video.mp4';
 

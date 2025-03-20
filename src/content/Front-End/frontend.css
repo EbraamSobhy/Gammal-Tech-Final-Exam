@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 .f {
     background-color: teal;
 }
@@ -8,6 +10,7 @@
     font-size: 50px;
     font-weight: bold;
     margin: 25px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .iframe-container {

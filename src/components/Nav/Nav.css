@@ -1,62 +1,37 @@
+/* Logo Styles */
 .logo {
     height: 70px;
     width: 100px;
     border-radius: 10%;
-    border-style: solid;
-    border-color: black;
+    border: 2px solid teal;
 }
 
-.navbar-nav .nav-link,
-.navbar-nav .nav-link:focus,
-.navbar-nav .nav-link:hover,
-.navbar-nav .show > .nav-link {
+/* Navbar Styles */
+.NavBar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-top: 1px solid #383838;
+    background-position: top;
+    z-index: 105;
+}
+
+/* Centering Navigation Links */
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Styling for Navigation Links */
+.navbar-nav .nav-link {
     color: black;
     font-weight: bold;
-    /* Set text color to black */
+    text-decoration: none;
+    margin: 0 25px; /* Adjust spacing */
 }
 
-.navbar-brand,
-.navbar-brand:focus,
-.navbar-brand:hover {
-    color: black; /* Set brand text color to black */
-}
-
-/* Remove the link disappearance when clicked */
-.navbar-nav .nav-link.active,
-#collapsible-nav-dropdown {
-    color: black !important;
-}
-
-.navbar-toggler {
-    border-color: black; /* Set toggle button border color to
-    black */
-}
-
-.navbar-toggler-icon {
-    background-color: black; /* Set toggle button background color to black */
-}
-
-    /* Adjust the z-index of the NavBar */
-    .NavBar {
-        position: relative; /* Ensure position is set to relative or absolute */
-        z-index: 998; /* Set a higher z-index value */
-    }
-
+/* Add underline on hover */
 .nav-link:hover {
-    border-bottom: teal;
-    border-bottom-style: solid;
-}
-
-#register:hover {
-    border-bottom: teal;
-    border-bottom-style: solid;
-    }
-
-    #register1:hover {
-        border-bottom: grey;
-        border-bottom-style: solid;
-        }
-
-#register  {
-    color: teal;
+    border-bottom: solid teal;
 }
