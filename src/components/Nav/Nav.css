@@ -30,22 +30,34 @@
     color: black;
     font-weight: bold;
     text-decoration: none;
-    margin: 0 25px; /* Adjust spacing */
+    margin: 0 25px;
     font-family: 'Montserrat', sans-serif;
 }
-
 
 /* Add underline on hover */
 .nav-link:hover {
     border-bottom: solid teal;
 }
 
-
 /* Responsive Design */
-@media (max-width: 768px) {
-    .NavBar {
-        flex-direction: column;
+@media (max-width: 991px) {
+    /* Ensure the navbar toggler is visible */
+    .navbar-toggler {
+        border: none;
+        background: transparent;
+        outline: none;
+        cursor: pointer;
+        padding: 5px;
+    }
+
+    .navbar-toggler-icon {
+        filter: invert(0);
+    }
+
+    .navbar-collapse {
+        background-color: white;
         padding: 10px;
+        text-align: center;
     }
 
     .navbar-nav {
@@ -54,6 +66,6 @@
     }
 
     .navbar-nav .nav-link {
-        margin: 10px 0; /* Adjust spacing for mobile */
+        margin: 10px 0;
     }
 }

@@ -14,12 +14,17 @@ function NavBar() {
                     <img className='logo' src={logo} alt="Logo" />
                 </Navbar.Brand>
 
-                <Nav className="mx-auto">
-                    <Nav.Link as={Link} to="/" target="_blank">Home</Nav.Link>
-                    <Nav.Link as={Link} to="/about" target="_blank">About</Nav.Link>
-                    <Nav.Link as={Link} to="/ref-video" target="_blank">Ref Video</Nav.Link>
-                    <Nav.Link as={Link} to="/final-exam" target="_blank">Final Exam</Nav.Link>
-                </Nav>
+                {/* Hamburger Menu for small screens */}
+                <Navbar.Toggle aria-controls="basic-navbar-nav" color='black' />
+
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="mx-auto">
+                        <Nav.Link as={Link} to="/" target="_blank">Home</Nav.Link>
+                        <Nav.Link as={Link} to="/about" target="_blank">About</Nav.Link>
+                        <Nav.Link as={Link} to="/ref-video" target="_blank">Ref Video</Nav.Link>
+                        <Nav.Link as={Link} to="/final-exam" target="_blank">Final Exam</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
             </Container>
         </Navbar>
     );
