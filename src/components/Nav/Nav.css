@@ -47,7 +47,8 @@
         background: transparent;
         outline: none;
         cursor: pointer;
-        padding: 5px;
+        padding: 10px;
+        transition: transform 0.3s ease-in-out;
     }
 
     .navbar-toggler-icon {
@@ -58,6 +59,12 @@
         background-color: white;
         padding: 10px;
         text-align: center;
+        transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        opacity: 0;
+    }
+
+    .navbar-collapse.show {
+        opacity: 1;
     }
 
     .navbar-nav {
@@ -67,5 +74,14 @@
 
     .navbar-nav .nav-link {
         margin: 10px 0;
+    }
+
+    .custom-toggle {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .custom-toggle.rotated {
+        transform: rotate(90deg);
+        transition: transform 0.3s ease-in-out;
     }
 }
